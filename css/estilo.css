@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: green; 
+    width: 100%;
+    margin-bottom: 30px;}
+header h1 {
+    text-align: center; color: white;
+    padding-bottom: 5px;
+    padding-top: 5px;}
+header nav {
+    text-align: center;
+    }
+header li {
+    display: inline;
+    padding: 15px;}
+header a {color: white;}
+
+
+#info {
+    text-align: center;
+    background: linear-gradient(green, red);
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 5%;
+    color: white;}
+#info h1 {
+    padding-bottom: 10px;
+    padding-top: 10px;}
+#info p {
+    padding-bottom: 5px;
+    padding-top: 5px;}
+.btn {
+    color: white;
+    background-color: red;
+    border-color: black;
+}
+
+#sobre {
+    background-color: white;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2), 0 6px 6px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    width: 70%;
+    margin-top: 35px;}
+#sobre h2 {
+    margin-bottom: 5px;}
+
+#programa {
+    background-color: white;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2), 0 6px 6px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    width: 70%;
+    margin-top: 35px;}
+#programa h2 {padding-bottom: 5px;}
+
+#palestrantes h2 {
+    text-align: center;}
+
+#palestrantes article {
+    display: inline-block;
+}
+.grid {
+    margin: 0 auto;
+    width: 80%;}
+#palestrantes article {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 2px green solid;}
+#palestrantes {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2), 0 6px 6px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 20px;
+    }
+#img1 { 
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/d/d8/Nikolas_Ferreira_in_2023_%28cropped%29.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 50%;
+  
+}
+#img2 { 
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzY4FpteHsYgQmn76OFx7KbNYYUYbNfyqlkQ&s');
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 50%;
+}
+#img3 { 
+  background-image: url('https://www.camara.leg.br/internet/deputado/bandep/160976.jpgmaior.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 50%;
+}
+
+#inscricao {    background-color: white;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2), 0 6px 6px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    width: 70%;
+    margin-top: 35px;}
+
+footer {
+    background-color: green;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
