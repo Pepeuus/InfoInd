@@ -6,17 +6,22 @@
 header {
     background-color: green; 
     width: 100%;
-    margin-bottom: 30px;}
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 header h1 {
     text-align: center; color: white;
     padding-bottom: 5px;
-    padding-top: 5px;}
-header nav {
-    text-align: center;
-    }
+    padding-top: 5px;
+}
+
 header li {
     display: inline;
-    padding: 15px;}
+    padding: 15px;
+}
+
 header a {color: white;}
 
 
@@ -37,6 +42,7 @@ header a {color: white;}
     color: white;
     background-color: red;
     border-color: black;
+    transform: scale(0.8);
 }
 
 #sobre {
@@ -63,22 +69,26 @@ header a {color: white;}
 #palestrantes h2 {
     text-align: center;}
 
-#palestrantes article {
-    display: inline-block;
-}
+
 .grid {
     margin: 0 auto;
-    width: 80%;}
+    width: 80%;
+    display: flex;
+}
+    
 #palestrantes article {
-    padding-left: 10px;
-    padding-right: 10px;
-    border-left: 2px green solid;}
+    padding-left: 5px;
+    padding-right: 5px;
+    border-left: 2px green solid;
+    display: flex;
+    flex-direction: column;
+}
 #palestrantes {
     background-color: white;
-    padding: 20px;
+    padding: 5px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.2), 0 6px 6px rgba(0,0,0,0.1);
     transition: all 0.3s ease;
-    width: 95%;
+    width: 70%;
     margin: 0 auto;
     margin-top: 20px;
     }
@@ -88,10 +98,7 @@ header a {color: white;}
   background-position: center;
   height: 250px;
   width: 80%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
+  
   border-radius: 50%;
   
 }
@@ -101,9 +108,7 @@ header a {color: white;}
   background-position: center;
   height: 250px;
   width: 80%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ 
   color: white;
   border-radius: 50%;
 }
@@ -113,24 +118,39 @@ header a {color: white;}
   background-position: center;
   height: 250px;
   width: 80%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
   color: white;
   border-radius: 50%;
 }
 
-#inscricao {    background-color: white;
+#inscricao {    
+    display: flex;
+    background-color: white;
     margin: 0 auto;
     padding: 20px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.2), 0 6px 6px rgba(0,0,0,0.1);
     transition: all 0.3s ease;
     width: 70%;
-    margin-top: 35px;}
+    margin-top: 35px;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
 
 footer {
     background-color: green;
     text-align: center;
     margin: 0 auto;
     margin-top: 20px;
+}
+
+#inscricao form {
+    display: flex;
+    margin: 0 auto;
+}
+#inscricao p {
+    text-align: center;
+}
+#inscricao h2 {
+    text-align: center;
 }
